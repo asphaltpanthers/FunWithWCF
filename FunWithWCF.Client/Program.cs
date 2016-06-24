@@ -17,6 +17,7 @@ namespace FunWithWCF.Client
             });
             Console.WriteLine(composite.BoolValue);
             Console.WriteLine(composite.StringValue);
+
             Console.Read();
         }
     }
