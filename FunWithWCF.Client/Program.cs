@@ -8,6 +8,7 @@ namespace FunWithWCF.Client
         {
             //Creating proxy for the Service
             Service1Client client = new Service1Client();
+
             Console.WriteLine(client.GetData(1));
 
             var composite = client.GetDataUsingDataContract(new CompositeType
